@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+/* сверстать страницу из 3 задания
+
+Условия
+1) использовать фреймворк (Bootstrap или React + Ant Design)
+2) разместить конетент с ипользованием grid (сетки)
+3) Приминяется Mobile first
+4) Упарвление внутренними и внешними отступами осуществялеся благодоря фреймворку */
+
+
+
+
+/* =================================================== GLOBAL ===================================================*/
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+
+body{
+    background-color: rgb(44, 45, 46); 
+}
+
+
+/*===================== NAV ===================== */
+nav {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #869c23;
+
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+nav a{
+    padding: 10px 15px;
+    border-radius: 15px;
+    font-size: 35px;
+
+    background-color: #1f201e;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+
+/*========================== Mobile по умочанию ========================== */
+
+#link_div_main, #table_div_main, #form_div_main {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: rgb(68, 74, 76);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+/*===================================================   Desktop && iPad: Devices ===================================================   */
+@media screen and (min-device-width: 768px) {
+
+}
+
+
+
+
+
